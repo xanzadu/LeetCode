@@ -16,5 +16,5 @@ function isValid(s) {
       return false;
     }
   }
-  return left.length ? 0 : 1;
+  return left.length ? false : true;
 };
